@@ -1,0 +1,33 @@
+H1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(red, green, blue);
+    border-collapse: collapse;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+thead{
+    background-color: crimson;
+}
+
+th,td{
+    border: 1px solid;
+    padding: 8px 10px;
+}
+
+tbody{
+    background-color: cornsilk;
+    text-align: center;
+}
+
+tfoot{
+    background-color: cornsilk;
+    text-align: center;
+}
