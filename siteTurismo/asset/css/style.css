@@ -14,19 +14,30 @@
 }
 .menu-principal ul{
     list-style: none;
+    /* usados para remover os marcadores padrões de lista  */
 }
 
 .menu-principal ul li{
     display: inline-block;
+    /* faz com que cada item da lista se conporte como um bloco */
 }
 
 .menu-principal ul li a{
     color: white;
     text-decoration: none;
+    /* Remove os subliando padarao dos links para que eles fiquem mais limpos */
     text-transform: uppercase;
+    /* 
+    uppercase converte tudo em maiusculo
+    lowercase para minusculo
+    none remove uqal quer tranformação
+    */
     padding: 5px 20px;
     border: 1px solid transparent;
+    /* define uma borda invisivel ao rdeor do link. Isso pode ser util para evitar
+    mudança de layout ao passar o mouse, ja que aborda aparece durante a interaçao */
     transition: 0,06 ease;
+    /* define a transiçao suave para as propriedades que mudan (como cor o fundo) */
 }
 
 .menu-principal ul li a:hover{
@@ -43,4 +54,102 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+h1{
+    font-size:70px ;
+    color:white ;
+    margin: 30px;
+}
+
+.btn{
+    color: white;
+    text-decoration:none ;
+    transition: 0.06s ease;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 80px;
+} 
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.conteudo-banner{
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ /*row: organiza os itens horizontalmente, da esquerda para a direita
+    row-reverse: organiza os itens horinzoltalmente,da direita para a esquerda
+    column-reverse: organiza os itens verticalmente, de baixo para cima
+    column: organiza os itens verticalmente, de cima para baixo
+*/
+
+#pagina-catalogo{
+    background-color: whitesmoke;
+}
+
+.pagina-catalogo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.passeios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ecoturismo {
+    width: 314px;
+    height: 368px;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 2px;
+}
+
+.ecoturismo h3{ 
+    text-align: center;
+    background-color: #c95e10;
+    color: white;
+    border: solid transparent;
+    margin-top: 5px;
+
+}
+
+.rafting{
+    width: 314px;
+    height: 368px;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 2px;
+}
+
+.rafting h3{ 
+    text-align: center;
+    background-color: #c95e10;
+    color: white;
+    border: solid transparent;
+    margin-top: 5px;
+}
+
+.pacote_aventura {
+    width: 314px;
+    height: 368px;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 2px;
+}
+
+.pacote_aventura h3{ 
+    text-align: center;
+    background-color: #c95e10;
+    color: white;
+    border: solid transparent;
+    margin-top: 5px;
 }
