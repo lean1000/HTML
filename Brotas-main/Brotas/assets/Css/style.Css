@@ -1,0 +1,192 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte padrão da página */
+}
+ 
+.Logo {
+    width: 150px; /* Define a largura da classe Logo */
+}
+ 
+#pagina-home {
+    height: 613px; /* Define a altura da seção da página inicial */
+    background: linear-gradient(rgba(17, 17, 15, 0.404), rgba(34, 30, 4, 0.685)), url(../img/banner.png); /* Aplica um gradiente de fundo com uma imagem */
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o elemento */
+}
+ 
+.menu-principal ul {
+    list-style: none; /* Remove os marcadores de lista padrão */
+}
+ 
+.menu-principal ul li {
+    display: inline-block; /* Exibe os itens da lista em linha, em vez de verticalmente */
+}
+ 
+.menu-principal ul li a {
+    color: white; /* Define a cor do texto do link como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-transform: uppercase; /* Transforma o texto dos links em letras maiúsculas */
+    padding: 5px 20px; /* Define o preenchimento interno dos links */
+    border: 1px solid transparent; /* Define uma borda transparente para evitar mudanças de layout ao passar o mouse */
+    transition: 0.6s ease; /* Define uma transição suave para alterações de estilo */
+}
+ 
+.menu-principal ul li a:hover {
+    background-color: white; /* Altera a cor de fundo para branco ao passar o mouse */
+    color: black; /* Altera a cor do texto para preto ao passar o mouse */
+    transform: scale(1.05);
+}
+ 
+.menu-principal ul li .link-ativo {
+    background: white; /* Define a cor de fundo para links ativos como branco */
+    color: black; /* Define a cor do texto para links ativos como preto */
+}
+ 
+.categoria {
+    display: flex; /* Define um contêiner flexível para os itens da categoria */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens igualmente entre si */
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .menu-principal ul li {
+        display: block; /* Stack items vertically */
+        text-align: center;
+    }
+}
+h1{
+    font-size: 70px;
+    color: white;
+    margin: 30px;
+}
+.btn{
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 80px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6 ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.conteudo-banner{
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#fotitas{
+    background-color: rgb(219, 219, 219);
+}
+#tabelita{
+    background-color: rgb(255, 207, 145);
+}
+body{
+    background-color: rgb(255, 207, 145);
+}
+#tabelita main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgb(255, 207, 145);
+}
+.passeio{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foto:hover + .foto-btn,
+.foto2:hover + .foto-btn2,
+.foto3:hover + .foto-btn3 {
+    transform: scale(1.1); /* Aumenta o botão */
+}
+.foto,
+.foto2,
+.foto3 {
+    width: 314px;
+    height: 368px;
+    border: 2px solid grey;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease
+}
+.foto:hover,
+.foto2:hover,
+.foto3:hover {
+    transform: scale(1.1);
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 160px;
+}
+.foto-btn,
+.foto-btn2,
+.foto-btn3{
+    background-color: #C95E10;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 314px;
+    box-sizing: border-box;
+    transition: transform 0.3s
+ 
+}
+.foto-btn:hover,
+.foto-btn2:hover,
+.foto-btn3:hover{
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(red, green, blue);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 30%;
+ 
+    table-layout: fixed;
+}
+ 
+thead{
+    background-color: gray;
+}
+th, td{
+    border: 1px outset;
+    padding: 8px 10px ;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;;
+}
+tbody{
+    background-color: rgb(229, 247, 247);
+}
+tfoot{
+    background-color: rgb(229, 247, 247);
+    text-align: center;
+}
+.zap{
+    background-color: #C95E10;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    align-items: center;
+}
