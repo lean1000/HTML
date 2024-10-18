@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#inicio{
+    height: 600px;
+    background: linear-gradient( rgba(66, 66, 65, 0.432),rgba(39, 39, 37, 0.281)), url(../img/banner.png);
+    background-size: cover;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: black;
+    font-family: 'Passero One', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.secoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secoes img{
+    padding: 140px 90px;
+}

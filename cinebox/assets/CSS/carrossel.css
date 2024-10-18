@@ -1,0 +1,15 @@
+.carrossel-conteiner{
+    max-width: 1920;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img{
+    width: 100;
+}
