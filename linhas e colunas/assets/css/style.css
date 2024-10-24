@@ -1,0 +1,62 @@
+.linha{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.linha>div{
+    border: 2px solid tomato;
+}
+
+.coluna{
+    flex: 0;
+    box-sizing: border-box;
+}
+
+.colona-1{
+    flex: 0 0 8.33%;
+}
+
+.coluna-2{
+    flex: 0 0 16.66%;
+}
+
+.coluna-3{
+    flex: 0 0 25%;
+}
+
+.coluna-4{
+    flex: 0 0 33.33%;
+}
+
+.coluna-5{
+    flex: 0 0 41.66%;
+}
+
+.coluna-6{
+ flex: 0 0 50%;
+}
+
+.coluna-7{
+    flex: 0 0 58.33%;
+}
+
+.coluna-8{
+    flex: 0 0 66.66%;
+}
+
+.coluna-9{
+    flex: 0 0 75%;
+}
+
+.coluna-10{
+    flex: 0 0 83.33%;
+}
+
+.coluna-11{
+    flex: 0 0 91.66%;
+}
+
+.coluna-12{
+    flex: 0 0 100%;
+}
