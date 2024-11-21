@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="dados.html"method="get">
+        <input type="number" id="campo1" placeholder="Digite um numero">
+        <br>
+ 
+        <input type="number" id="campo2" placeholder="Digite outro numero">
+        <br>
+        <input type="number" id="campo3" placeholder="resultado" readonly>
+        <input type="submit">
+    </form>
+    <hr>
+    <button onclick="javascript:teste()">Click Aqui!</button>
+</body>
+<Script>
+    function teste(){
+        const campo1 = document.getElementById("campo1")
+        const campo2 = document.getElementById("campo2")
+        const campo3 = document.getElementById("campo3")
+
+        campo3.value = parseInt(campo1.value) + parseInt(campo2.value)
+
+        console.log(campo2.value)
+    }
+</Script>
+</html>
